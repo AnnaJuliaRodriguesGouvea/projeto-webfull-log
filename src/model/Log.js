@@ -25,6 +25,14 @@ const LogModel = sequelize.define('Log',
             type: DataTypes.STRING,
             allowNull: false
         },
+        filter: {
+            type: DataTypes.STRING,
+            allowNull: false
+        },
+        substring: {
+            type: DataTypes.STRING,
+            allowNull: false
+        },
     }
 )
 
